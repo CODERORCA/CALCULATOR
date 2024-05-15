@@ -19,10 +19,9 @@ def add_to_calculation(symbol):
 def evaluate_calculation():
     global calculation
     try:
-        result = str(eval(calculation))
-        calculation = ""
+        calculation = str(eval(calculation))
         text_result.delete(1.0, "end")
-        text_result.insert(1.0, result)
+        text_result.insert(1.0, calculation)
 # in case if it doesn't "add up", get it?
     except:
         clear_field()
