@@ -1,2 +1,2 @@
-# CALCULATOR
-Coding challenge to program a fully functional Calculator
+// My collection of codes
+> You can find my custom projects here
